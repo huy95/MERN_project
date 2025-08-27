@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login></Login>} />
         <Route path="/register" element={<Register />} />
-        <Route path="/to-do-list" element={<ToDoList />} />
+        <Route path="/to-do" element={<ToDoList />} />
       </Routes>
     </div>
   );

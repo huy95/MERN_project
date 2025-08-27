@@ -1,7 +1,7 @@
 import NavBar from './NavBar'
-
+import img_landing from '../../asset/img-home.png'
+import './Landing.css'
 const Landing = () => {
-
   return (
     <div>
       <NavBar/>
@@ -18,7 +18,7 @@ const Landing = () => {
           </div>
         </div>
         <div className='hero-art'>
-          <img src='../../asset/img-home.png' alt='People'/>
+          <img src={img_landing}alt='People'/>
         </div>
       </section>
     </div>

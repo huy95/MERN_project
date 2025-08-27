@@ -9,7 +9,7 @@ export const Login = () => {
         <input type="text" placeholder='Username' defaultValue="" />
         <input type='text' placeholder='Password'/>
         <p className='register-text'>
-          New Users? <a href='/'>Register</a>
+          New Users? <a href='/register'>Register</a>
         </p>
         <button className='login-btn'>Login</button>
       </div>

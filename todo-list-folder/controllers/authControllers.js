@@ -25,7 +25,7 @@ async function Login(req, res) {
     const {userName, password} = req.body;
     const user = await Users.findOne({userName});
     if (!user){
-      return res.status(404).send('Authentication Failed!');
+      return res.status(404).send('Login Fault!');
     }
     const isPasswordValid = await user.comparePassword(password);
     if(!isPasswordValid){

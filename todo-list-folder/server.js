@@ -5,6 +5,7 @@ const express = require('express');
 const app = express();
 const authRoutes = require('./routes/authRoutes')
 const cors = require('cors');
+const todoRoutes = require('./routes/todoRoutes.js')
 
 
 
@@ -14,6 +15,7 @@ app.use(express.json())
 db();
 
 app.use('/api', authRoutes)
+app.use('/api/todo', todoRoutes)
 
 app.get('/', (req, res) => {
   res.send(`Kết nối DB: `);

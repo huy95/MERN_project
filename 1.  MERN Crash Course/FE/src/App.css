@@ -1,0 +1,54 @@
+/* full screen + reset */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  min-height: 100dvh;
+}
+
+/* light/dark tokens */
+:root {
+  --bg: #f7f8fb;
+  --bg-side: #e8ecf2;
+  --text: #0b1220;
+  --muted: #6b7280;
+  --card: #ffffff;
+  --card-border: #e5e7eb;
+  --input-bg: #ffffff;
+  --input-border: #cbd5e1;
+  --btn: #2563eb;
+  --btn-soft: #bcd4ff;
+}
+
+html.dark {
+  --bg: #0b1220;
+  /* nền trung tâm */
+  --bg-side: #0f172a;
+  /* hai dải cạnh */
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --card: #0f1625;
+  --card-border: #1f2937;
+  --input-bg: #0d1422;
+  --input-border: #243247;
+  --btn: #60a5fa;
+  --btn-soft: #a7c7ff;
+}
+
+html,
+body {
+  background:
+    linear-gradient(90deg, var(--bg-side) 0, var(--bg-side) 0%,
+      var(--bg) 0%, var(--bg) 100%,
+      var(--bg-side) 2%, var(--bg-side) 100%);
+  color: var(--text);
+  transition: background .2s ease, color .2s ease;
+}

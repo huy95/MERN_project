@@ -1,0 +1,36 @@
+.page {
+    font-size: san-serif;
+}
+
+.header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.header-right button {
+    border: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+}
+
+.header-left .logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--text);
+    text-decoration: none;
+}

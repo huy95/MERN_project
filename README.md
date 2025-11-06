@@ -1,23 +1,23 @@
-🫴 7 project
-1: MERN Crash Course
-2: Chat app real time WITHOUT image uploads
-3: Chat app WITHOUT image Uploads 
-4: Advanced authentication system
-5: Github Clone 
-6: Admin Dashboard
-7: Linkedin Clone
-🔥 8 project 
-1: PERN crash coure
-2: GrapQL crash course
-3: Stripe Payments Course
-4: Tinder clone
-5: Next.js crash course(social media app) 
-6: Twitter clone
-7: Ecommerse store
-8: Netflix clone
-🥵 5 project 
-1:  AI fitness trainer (voice agent)
-2: Video calling Platform 
-3: Chat app with redis & Typescript 
-4: Sass Code editor 
-5: Spotify clone 
+🫴 7 project<br>
+1: MERN Crash Course<br> 
+2: Chat app real time WITHOUT image uploads<br>
+3: Chat app WITHOUT image Uploads <br>
+4: Advanced authentication system<br>
+5: Github Clone <br>
+6: Admin Dashboard<br>
+7: Linkedin Clone<br>
+🔥 8 project <br>
+1: PERN crash coure<br>
+2: GrapQL crash course<br>
+3: Stripe Payments Course<br>
+4: Tinder clone<br>
+5: Next.js crash course(social media app)<br> 
+6: Twitter clone<br>
+7: Ecommerse store<br>
+8: Netflix clone<br>
+🥵 5 project <br>
+1:  AI fitness trainer (voice agent)<br>
+2: Video calling Platform <br>
+3: Chat app with redis & Typescript<br> 
+4: Sass Code editor <br>
+5: Spotify clone <br>
